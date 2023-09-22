@@ -4,7 +4,7 @@
 #!binbash
 dnf install git -y
 git clone httpsgithub.comlowchoonkeataws-live.git
-cd aws-live
+cd ccassignment
 dnf install python-pip -y
 pip3 install flask pymysql boto3
 python3 jobapply.py
