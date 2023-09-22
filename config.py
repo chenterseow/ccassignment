@@ -1,7 +1,7 @@
-customhost = "assignment-db.crx9f7gbpwdb.us-east-1.rds.amazonaws.com"
-customuser = "aws_user"
-custompass = "Bait3273"
-customdb = "assignment-db"
-custombucket = "ngjonas-bucket"
+customhost = "try.crx9f7gbpwdb.us-east-1.rds.amazonaws.com"
+customuser = "jonas_try"
+custompass = "jonas_try"
+customdb = "try"
+custombucket = "try-employee"
 customregion = "us-east-1"
 
