@@ -3,5 +3,5 @@ customuser = "jonas_try"
 custompass = "jonas_try"
 customdb = "try"
 custombucket = "try-employee"
-customregion = "us-east-1"
+customregion = "US East (N. Virginia) us-east-1"
 
