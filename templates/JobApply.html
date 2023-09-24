@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Job Apply</title>
+</head>
+<center>
+	<font color="black" size="4" style="font-family: avenir">
+
+		<h1 style="color: DodgerBlue">Job Apply Database</h1>
+
+		<body bgcolor="lightgrey">
+
+			<form action="/addcand" autocomplete="on" method = "POST" enctype="multipart/form-data">
+
+				<button type="submit" formaction="/getcand" style="background: grey; height: 45px; width: 200px; color:white; font:oblique;">GET Job Apply History</button><br><br>
+
+		  		Candidates ID:<br> <input style="height:25px;font-size:14pt; color:grey;" type="cid" name="cand_id" autofocus size="40"><br><br>
+
+				Email:<br> <input style="height: 25px; font-size: 14pt; color: grey;" type="email" name="email"><br><br>
+
+		  		Company Name:<br> <input style="height:25px;font-size:14pt;color:grey;" type="cname" name="company_name" ><br><br>
+
+		  		Job Name:<br> <input style="height:25px;font-size:14pt;color:grey;" type="jname" name="job_name"><br><br>
+
+		  		Job Department:<br> <input style="height:25px;font-size:14pt;color:grey;" type="jdep" name="job_dep"><br><br>
+
+		  		Job Location:<br> <input style="height:25px;font-size:14pt;color:grey;" type="location" name="job_location"><br><br>
+
+		  		Documentation: <input type=file name="cand_document_file" style="height:25px;font-size:14pt;color:grey;"> <br><br>
+
+		  		<button type="submit" style="background: grey; height: 45px; width: 200px; color: white; size: 5; font:oblique;">UPDATE DATABASE</button>
+
+			</form>
+		</body>
+
+	</font>
+</center>
+</html>
+
